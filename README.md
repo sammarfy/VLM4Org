@@ -45,7 +45,9 @@ We used multiple environments to run the VLMs. One should follow the setting up 
 
 
 ## Download Datasets
-
+[Fish](https://osf.io/k2sp9/files/osfstorage/65cd520cb018b60150213451)
+[Bird](https://osf.io/k2sp9/files/osfstorage/65cd5205b74cac0161836e87)
+[Butterfly](https://osf.io/k2sp9/files/osfstorage/65cd51dc6d0cb8015c1a9624)
 ## Evaluation Notebooks
 
 ## Citation
