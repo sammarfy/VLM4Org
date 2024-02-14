@@ -14,23 +14,17 @@ With the advent of large foundation models such as vision-language models (VLMs)
 We conducted our evaluation on five scientific tasks relevant to biologists in the study of biodiversity science. Tasks are: Species Classification, Trait Identification, Trait Grounding, Trait Referring, Trait Counting.
 
 ## Datasets
-| Statistics | Number |
-|----------|----------|
-| **Fish-10k** |
-|Images | 10,347 | 
-|Species | 495 | 
-| **Fish-500** |
-|Images | 500 | 
-|Species | 60 |
-| **Bird-10k** |
-|Images | 11,092 | 
-|Species | 188 |
-| **Bird-500** |
-|Images | 492 | 
-|Species | 47 |
-| **Butterfly** |
-|Images | 4,972 | 
-|Species | 65 |
+| Statistics | Number | Statistics | Number |
+|----------|----------|----------|----------|
+| **Fish-10k**| | **Fish-500** | |
+|Images | 10,347 | Images | 500 |
+|Species | 495 | Species | 60 | 
+| **Bird-10k** | |**Bird-500** | |
+|Images | 11,092 | Images | 492 |
+|Species | 188 | Species | 47 |
+| **Butterfly** | | | |
+|Images | 4,972 |  | | |
+|Species | 65 | | | |
 
 We used image collections of three taxonomic groups of organisms: Fish (contained 10k images), Bird (containing 10k images), and Butterfly (containing 5k images), obtained by taking subsets of the FishAIR dataset, the CUB dataset, and the Cambridge Butterfly dataset, respectively. The motivation for choosing these datasets is to evaluate the effectiveness of VLMs in answering biological questions over a range of bio-diverse organisms.
 
