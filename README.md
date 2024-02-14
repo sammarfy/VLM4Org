@@ -27,6 +27,7 @@ We conducted our evaluation on five scientific tasks relevant to biologists in t
 |Species | 65 | | | |
 
 We used image collections of three taxonomic groups of organisms: Fish (contained 10k images), Bird (containing 10k images), and Butterfly (containing 5k images), obtained by taking subsets of the FishAIR dataset, the CUB dataset, and the Cambridge Butterfly dataset, respectively. The motivation for choosing these datasets is to evaluate the effectiveness of VLMs in answering biological questions over a range of bio-diverse organisms.
+The dataset-500 variations contain trait-level bounding box annotations and are used for grounding, referring, and counting tasks.
 
 ## Evaluation
 
