@@ -45,6 +45,9 @@ We used multiple environments to run the VLMs. One should follow the setting up 
 
 You may need to additionally install ```imageio, openai, jsonlines``` depending on the environment. 
 
+### Running GPT-4V(ision)
+If you want to evaluate the performance of the GPT-4V model. You need to provide your Openai API keys in ```gpt_api/api_key.txt``` and ```gpt_api/org_key.txt```.
+
 ## Download Datasets
 The datasets can be downloaded from this [repository](https://osf.io/k2sp9/): 
 
