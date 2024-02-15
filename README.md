@@ -85,6 +85,8 @@ datasets
 
 
 ## Evaluation Notebooks
+The evaluation notebooks are stored in the ```Evaluation/``` folder.
+
 
 ## Citation
 
