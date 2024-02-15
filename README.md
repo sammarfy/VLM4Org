@@ -43,6 +43,7 @@ We used multiple environments to run the VLMs. One should follow the setting up 
 | blip | blip-flan-xl, blip-flan-xxl | [link](https://github.com/salesforce/BLIP?tab=readme-ov-file#blip-bootstrapping-language-image-pre-training-for-unified-vision-language-understanding-and-generation) |
 | instruct_blip | instruct-vicuna7b, instruct-vicuna13b, instruct-flant5xl, instruct-flant5xxl | [link](https://github.com/salesforce/LAVIS/blob/main/projects/instructblip/README.md#install-from-source) |
 
+You may need to additionally install ```imageio, openai, jsonlines``` depending on the environment. 
 
 ## Download Datasets
 The datasets can be downloaded from this [repository](https://osf.io/k2sp9/): 
