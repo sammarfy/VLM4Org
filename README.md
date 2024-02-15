@@ -45,9 +45,45 @@ We used multiple environments to run the VLMs. One should follow the setting up 
 
 
 ## Download Datasets
-[Fish](https://osf.io/k2sp9/files/osfstorage/65cd520cb018b60150213451)
-[Bird](https://osf.io/k2sp9/files/osfstorage/65cd5205b74cac0161836e87)
+The datasets can be downloaded from this [repository](https://osf.io/k2sp9/): 
+
+[Fish](https://osf.io/k2sp9/files/osfstorage/65cd520cb018b60150213451), 
+[Bird](https://osf.io/k2sp9/files/osfstorage/65cd5205b74cac0161836e87), 
 [Butterfly](https://osf.io/k2sp9/files/osfstorage/65cd51dc6d0cb8015c1a9624)
+
+Download the .zip files, unzip them, and order the files like the following in the ```datasets/``` folder.
+
+```
+datasets
+├── Fish
+│   ├── images
+│   │   ├── INHS_FISH_58870.jpg
+│   │   ├── INHS_FISH_58819.jpg
+│   │   └── ...
+│   └── metadata
+│       ├── metadata_10k.csv
+│       ├── metadata_500.csv
+│       └── ...
+├── Bird
+│   ├── images
+│   │   ├── Ivory_Gull_0117_49227.jpg
+│   │   ├── Yellow_Warbler_0026_176337.jpg
+│   │   └── ...
+│   └── metadata
+│       ├── bird_metadata_10k.csv
+│       ├── identification.csv
+│       └── ...
+├── Butterfly
+│   ├── images
+│   │   ├── butterfly_train_heliconius_sara_0007.jpg
+│   │   ├── butterfly_val_pyrrhogyra_cramen_0001.jpg
+│   │   └── ...
+│   └── metadata
+│       ├── metadata.csv
+│       └── imagelist.csv
+```
+
+
 ## Evaluation Notebooks
 
 ## Citation
