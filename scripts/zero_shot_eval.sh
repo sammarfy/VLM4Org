@@ -78,32 +78,4 @@ NUM_IMAGES=500
 # python zero_shot_eval/counting.py -m $MODEL_NAME -t direct -n $NUM_IMAGES
 # python zero_shot_eval/counting.py -m $MODEL_NAME -t selection -n $NUM_IMAGES
 
-
-# ##### SPATIAL RELATIONSHIP
-# python zero_shot_eval/spatial_rel.py -m $MODEL_NAME -t "set" -r "adipose fin" -n $NUM_IMAGES
-# python zero_shot_eval/spatial_rel.py -m $MODEL_NAME -t "count" -r "adipose fin" -n $NUM_IMAGES
-# python zero_shot_eval/spatial_rel.py -m $MODEL_NAME -t "set" -r "pectoral fin" -n $NUM_IMAGES
-# python zero_shot_eval/spatial_rel.py -m $MODEL_NAME -t "count" -r "pectoral fin" -n $NUM_IMAGES
-# python zero_shot_eval/spatial_rel.py -m $MODEL_NAME -t "set" -r "pelvic fin" -n $NUM_IMAGES
-# python zero_shot_eval/spatial_rel.py -m $MODEL_NAME -t "count" -r "pelvic fin" -n $NUM_IMAGES
-# python zero_shot_eval/spatial_rel.py -m $MODEL_NAME -t "set" -r "anal fin" -n $NUM_IMAGES
-# python zero_shot_eval/spatial_rel.py -m $MODEL_NAME -t "count" -r "anal fin" -n $NUM_IMAGES
-# python zero_shot_eval/spatial_rel.py -m $MODEL_NAME -t "set" -r "dorsal fin" -n $NUM_IMAGES
-# python zero_shot_eval/spatial_rel.py -m $MODEL_NAME -t "count" -r "dorsal fin" -n $NUM_IMAGES
-
-
-# # ##### SIZE DETECTION
-# python zero_shot_eval/size_detection.py -m $MODEL_NAME -t direct -s largest -n $NUM_IMAGES
-# python zero_shot_eval/size_detection.py -m $MODEL_NAME -t direct -s smallest -n $NUM_IMAGES
-# python zero_shot_eval/size_detection.py -m $MODEL_NAME -t selection -s largest -n $NUM_IMAGES
-# python zero_shot_eval/size_detection.py -m $MODEL_NAME -t selection -s smallest -n $NUM_IMAGES
-
-# # ##### CLOSEST FIN DETECTION
-# python zero_shot_eval/closest.py -m $MODEL_NAME -r "dorsal fin" -n $NUM_IMAGES
-# python zero_shot_eval/closest.py -m $MODEL_NAME -r "caudal fin" -n $NUM_IMAGES
-# python zero_shot_eval/closest.py -m $MODEL_NAME -r "pectoral fin" -n $NUM_IMAGES
-# python zero_shot_eval/closest.py -m $MODEL_NAME -r "pelvic fin" -n $NUM_IMAGES
-# python zero_shot_eval/closest.py -m $MODEL_NAME -r "anal fin" -n $NUM_IMAGES
-# python zero_shot_eval/closest.py -m $MODEL_NAME -r "adipose fin" -n $NUM_IMAGES
-
 exit;
