@@ -77,14 +77,14 @@ datasets
 │       ├── bird_metadata_10k.csv
 │       ├── identification.csv
 │       └── ...
-├── Butterfly
-│   ├── images
-│   │   ├── butterfly_train_heliconius_sara_0007.jpg
-│   │   ├── butterfly_val_pyrrhogyra_cramen_0001.jpg
-│   │   └── ...
-│   └── metadata
-│       ├── metadata.csv
-│       └── imagelist.csv
+└── Butterfly
+    ├── images
+    │   ├── butterfly_train_heliconius_sara_0007.jpg
+    │   ├── butterfly_val_pyrrhogyra_cramen_0001.jpg
+    │   └── ...
+    └── metadata
+        ├── metadata.csv
+        └── imagelist.csv
 ```
 
 
