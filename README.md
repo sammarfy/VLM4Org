@@ -1,4 +1,4 @@
-# VLM4OrgBio
+# VLM4Bio
 
 This repo contains the full pipeline and evaluation code for the paper "On the Zero-Shot Effectiveness of Pre-trained Vision-Language Models (VLMs) for Understanding Scientific Images: A Case Study in Organismal Biology"
 
